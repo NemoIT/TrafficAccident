@@ -1,6 +1,6 @@
-# INCIBE Security Warnings
+# Barcelona's traffic accidents analysis
 
-Este repositorio presenta el trabajo de creación de un dataset a partir de los avisos de seguridad publicados por INCIBE, el Instituto Nacional de Ciberseguridad de España, utilizando técnicas de web scraping con Python.
+En este proyecto se analizan los accidentes de tráfico ocurridos en la ciudad de Barcelona durante el año 2018. El Ayuntamiento de Barcelona, a través de su portal de [Open Data](https://opendata-ajuntament.barcelona.cat/data/es/organization/seguretat), publica anualmente los datos de los accidentes gestionados por la Guardia Urbana durante cada periodo.
 
 *This repository presents the work to create a dataset based on security warnings provided by INCIBE, the Spanish National Cybersecurity Institute, using web scraping techniques with Python.*
 
