@@ -5,7 +5,7 @@ En este proyecto se analizan los accidentes de tráfico ocurridos en la ciudad d
 *This repository presents the work to create a dataset based on security warnings provided by INCIBE, the Spanish National Cybersecurity Institute, using web scraping techniques with Python.*
 
 
-![](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiprpKn_PHmAhVSQBoKHVnRCk0QjRx6BAgBEAQ&url=https%3A%2F%2Fwww.metropoliabierta.com%2Fmovilidad%2Fmuertos-accidente-trafico-barcelona-alza_21986_102.html&psig=AOvVaw09eH3AiwfIVUif4eO1H7AH&ust=1578503061168517)
+![](https://www.metropoliabierta.com/uploads/s1/75/18/01/accidentes-trafico-barcelona-muertos_5_570x340.jpeg)
 
 
 ## Contexto
