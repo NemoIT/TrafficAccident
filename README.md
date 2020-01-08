@@ -4,16 +4,36 @@ En este proyecto se analizan los accidentes de tráfico ocurridos en la ciudad d
 
 Se usarán esos datos para caracterizar los accidentes de tráfico en la ciudad, poniendo especial énfasis en determinar qué factores influyen en mayor medida en la gravedad del accidente. Conocer esos factores puede ayudar a las administraciones y organismos a establecer medidas que prevengan o palien las consecuencias de un accidente.
 
+
 *This project analyzes traffic accidents that occurred in the city of Barcelona during 2018. The City Council of Barcelona, ​​through its [Open Data] portal (https://opendata-ajuntament.barcelona.cat/data/ es / organization / seguretat), publishes annually the data of the accidents managed by the Urban Guard during each period.*
 
 *These data will be used to characterize traffic accidents in the city, with special emphasis on determining which factors most influence the severity of the accident. Knowing these factors can help administrations and agencies to establish measures that prevent or mitigate the consequences of an accident.*
 
 ![](https://www.metropoliabierta.com/uploads/s1/75/18/01/accidentes-trafico-barcelona-muertos_5_570x340.jpeg)
 
+## Conclusiones del estudio
+
+En base a este estudio se pueden extraer algunas conclusiones que nos ayudan a caracterizar los accidentes de tráfico en la ciudad de Barcelona y determinar los factores de riesgo en los mismos.
+
+  * Aproximadamente la mitad de los accidentes se producen durante la tarde.
+  
+  * El viernes es el día de mayor concentración de accidentes. 
+  
+  * Los fines de semana se producen menos accidentes que durante los días laborales; sin embargo, en estos dos días se produce un porcentaje mayor de accidentes durante la noche.
+  
+  * El tipo más frecuente de accidente se produce por una colisión lateral, seguido del alcance (por detrás), la colisión fronto-lateral, el atropello y la caída en vehículos de 2 ruedas.
+  
+  * La mayoría de accidentes se concentran en el centro de la ciudad (zona del Eixample), en las rondas y en las principales vías (Diagonal y Gran Vía)
+  
+  * Los accidentados en motocicleta (7017) doblan a los accidentados que viajaban en coche (3035). Les siguen los accidentados en bicicleta (730).
+  
+  * Respecto a la gravedad, se comprueba que la edad media de los accidentados graves es superior a los accidentados leves. 
+  
+  * Respecto al tipo de accidente, los choques contra objetos estáticos o por salída de la vía, son los que producen los accidentes más graves, seguidos de las caídas en el interior de los autobuses o autocares y las colisiones frontales o fronto-laterales.
+  
+  * Los vehículos más inseguros son las motocicletas y las bicicletas. Por ejemplo, la posibilidad de resultar herido grave o muerto en un accidente de motocicleta es casi 6 veces mayor que si se tuviese el msimo accidente en coche.
+  
 ## Descripción del dataset
-
-El dataset generado incluye todos los avisos de seguridad emitidos por INCIBE desde Enero de 2014 hasta la actualidad (Noviembre de 2019). Para cada aviso se incluye una descripción del problema y su solución, el nivel de gravedad del aviso, la fecha de publicación y etiquetas varias para su categorización.
-
 
 La información se puede obtener a través de varios ficheros que representan distintas dimensiones de los accidentes. Por un lado encontramos el fichero '2018_accidents_gu_bcn.csv' que contiene los datos de los accidentes en sí mismos. En el fichero '2018_accidents_persones_gu_bcn_.csv' encontramos los datos de las personas accidentadas y en el fichero '2018_accidents_tipus_gu_bcn_.csv' encontramos la tipología de cada accidente (colisión frontal, alcance, salida de vía, etc.)
 
@@ -68,20 +88,6 @@ Este fichero también contiene en parte los mismos campos que el fichero de acci
 ******
 
 La clave que permite enlazar estos datasets es el número de expediente del accidente. Los registros pueden encontrarse duplicados: por ejemplo, un accidente con dos tipologías de accidente (colisión frontal y lateral) aparecerá dos veces en el fichero de "Tipología de accidentes".
-
-
-## Contenido
-
-El dataset generado se proporciona en formato JSON. Su estructura es la siguiente:
-
-|Nombre |Tipo                          |Uso                         |
-|----------------|-------------------------------|-----------------------------|
-|**title**|string|Título del aviso
-| **date**:|date| 	Fecha de publicación
-|**severity**:|integer| Gravedad (1-Mínima, 2-Baja, 3-Media, 4-Alta, 5-Crítica)
-|**labels**:|string list| Etiquetas para categorizar ("Phising", "Fraude", "Vulnerabilidad", etc.)
-|**description**:|string| Descripción del problema que genera el aviso
-|**solution**:|string| Solución para prevenir, evitar o corregir la amenaza
 
 
 ## Más información
