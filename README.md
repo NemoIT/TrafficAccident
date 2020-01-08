@@ -5,7 +5,7 @@ En este proyecto se analizan los accidentes de tráfico ocurridos en la ciudad d
 Se usarán esos datos para caracterizar los accidentes de tráfico en la ciudad, poniendo especial énfasis en determinar qué factores influyen en mayor medida en la gravedad del accidente. Conocer esos factores puede ayudar a las administraciones y organismos a establecer medidas que prevengan o palien las consecuencias de un accidente.
 
 
-*This project analyzes traffic accidents that occurred in the city of Barcelona during 2018. The City Council of Barcelona, ​​through its [Open Data] portal (https://opendata-ajuntament.barcelona.cat/data/ es / organization / seguretat), publishes annually the data of the accidents managed by the Urban Guard during each period.*
+*This project analyzes traffic accidents that occurred in the city of Barcelona during 2018. The City Council of Barcelona, ​​through its [Open Data](https://opendata-ajuntament.barcelona.cat/data/ es / organization / seguretat) portal , publishes annually the data of the accidents managed by the Urban Guard during each period.*
 
 *These data will be used to characterize traffic accidents in the city, with special emphasis on determining which factors most influence the severity of the accident. Knowing these factors can help administrations and agencies to establish measures that prevent or mitigate the consequences of an accident.*
 
@@ -92,4 +92,4 @@ La clave que permite enlazar estos datasets es el número de expediente del acci
 
 ## Más información
 
-Se puede encontrar información adicional, incluyendo una descripción de los archivos del proyecto, en la [Wiki](https://github.com/NemoIT/INCIBE-security-warnings/wiki) de este proyecto.
+Se puede encontrar información adicional, incluyendo una descripción de los archivos del proyecto, en la [Wiki](https://github.com/NemoIT/TrafficAccident/wiki) de este proyecto.
